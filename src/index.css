@@ -38,21 +38,21 @@ code {
 }
 
 .button {
-  padding: 15px 15px;
-  font-size: 18px;
+  padding: 10px 10px;
+  font-size: 20px;
   text-align: center;
   cursor: pointer;
   outline: none;
-  color: #fff;
+  color: rgb(73, 71, 71);
   border: none;
-  border-radius: 15px;
+  border-radius: 20px;
   
 }
 
 .button:hover {background-color: #c2cec3}
 
 .button:active {
-  background-color: #3e8e41;
+  background-color: #b9c2b9;
   box-shadow: 0 5px #666;
   transform: translateY(4px);
 }
