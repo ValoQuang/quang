@@ -25,7 +25,7 @@ const [error, setError] = useState(null);
                 }
     //useEffect hook is used, and fetch url, convert to json file.
             )
-      }, [])
+      }, []) //[] is only called for once.
 if (error) {
         return <div>Error: {error.message}</div>;
     } else if (!isLoaded) {
