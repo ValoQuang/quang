@@ -40,7 +40,10 @@ if (error) {
                     <h2>{user.name}</h2>
                     <h3>{user.email}</h3>
                     <p>{user.website}</p>
-                    <button className="button"><Link to={`user/${user.id}`}>More info</Link></button>
+                    <Link to={`user/${user.id}`}>
+                        <button className ="button"><span>More Info</span></button>
+
+                    </Link>
                 </div>
                 
               </div>
